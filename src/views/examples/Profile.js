@@ -73,7 +73,7 @@ class Profile extends React.Component {
                       <div className="card-profile-image">
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           <img
-                            alt="..."
+                            alt=""
                             className="rounded-circle"
                             src={profile}
                           />
@@ -108,51 +108,42 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">1</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">1</span>
+                          <span className="description">Experience(years)</span>
                         </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
-                        </div>
+                        
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Tariq Sharaia{" "}
+                      <span className="font-weight-light">, 25</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer | Mechanical Engineer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      LTUC - ASAC | Mutah University
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                         I am currently a software development student in code 301 at ASAC, with previous degree in Mechanical Engineering. I worked as Maintenance Engineer at Industrial Manufacturting after graduation for 1 year. Then I decided to enter the world of technology as I found myslef curious about sphisticated topics such Data Science, AI and Machine learning. I am more interested where Engineering and programming cross each other. I am eager to learn, open to new fileds and this exactly why I enrolled at ASAC. 
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
+                        
                       </Col>
                     </Row>
                   </div>
